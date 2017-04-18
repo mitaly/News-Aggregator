@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bgrnd"
+    android:padding="8dp">
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/imageViewIcon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Language"
+        android:textSize="17dp"
+        android:textColor="@color/languageName"
+        android:layout_marginLeft="8dp"
+        android:textStyle="italic"
+        android:id="@+id/textViewlanguage"
+        android:layout_alignTop="@+id/imageViewIcon"
+        android:layout_toRightOf="@+id/imageViewIcon"
+        android:layout_toEndOf="@+id/imageViewIcon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Newspaper"
+        android:textColor="@color/newspaper"
+        android:layout_marginLeft="8dp"
+        android:textStyle="italic"
+        android:textSize="14dp"
+        android:id="@+id/textViewNewspaper"
+        android:layout_below="@+id/textViewlanguage"
+        android:layout_toRightOf="@+id/imageViewIcon"
+        android:layout_toEndOf="@+id/imageViewIcon" />
+
+</RelativeLayout>
